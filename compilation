@@ -1,0 +1,8 @@
+gnatmake -gnat2012 -gnata p_arbre_n.adb
+
+gnatmake -gnat2012 -gnata test_affichage.adb
+./test_affichage
+
+gnatmake -gnat2012 -gnata test_arbre_n.adb
+./test_arbre_n
+
